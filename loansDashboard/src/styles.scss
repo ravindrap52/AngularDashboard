@@ -1,1 +1,95 @@
 /* You can add global styles to this file, and also import other style files */
+li {
+  list-style-type: none;
+}
+.np-no-gutters {
+  margin: 0px;
+  padding: 0px;
+}
+.padding-0-8-0-8 {
+  padding: 0 8px 0 8px;
+}
+.widget {
+  position: relative;
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(#001e27, 0.05), 0 1px 3px 0 rgba(#001e27, 0.15);
+
+  .widget-body {
+    padding: 16px 23px;
+  }
+}
+.dashboard-card-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.stats-row {
+  margin-bottom: 15px;
+}
+.dashboard-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.stat-item {
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+
+.stat-item + .stat-item {
+  padding-left: 0.5rem;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+.dashboard-widget-body {
+  padding: 0.875rem 0 1.375rem 1rem;
+}
+
+.semantic-red {
+  color: #e84f38;
+}
+
+.dataViz-emerlad {
+  color: #32d196;
+}
+
+.dataViz-purple {
+  color: #a733d1;
+}
+
+.dataViz-violet {
+  color: #a733d1;
+}
+#card-value {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+#card-value-item {
+  font-size: 1rem;
+  color: #32d196;
+  font-weight: normal;
+}
+.dashboard-card-label {
+  color: rgba(#001e27, 0.8);
+  font-weight: normal;
+}
+.padding-15-20 {
+  padding: 15px 20px;
+}
+.dashboard-header-height {
+  height: 48px;
+}
+
+.dashboard-pending-items-test {
+  color: #001e27;
+}
+
+.dashboard-pending-count {
+  color: #0096c5;
+}
+
+.dashboard-pending-data {
+  list-style-type: none;
+  border-bottom: 1px solid rgba(0, 30, 39, 0.1);
+}
